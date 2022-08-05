@@ -417,26 +417,29 @@ section .title::after{
 .contact .contact-content .row .info{
     margin-left: 30px;
 }
-.contact .contact-content .row ion-icon{
-    font-size: 25px;
-    color: #0Bf900;
-}
+
 .contact .contact-content .row .info .head{
     font-weight: 500;
 }
 .contact .contact-content .row .info .sub-title{
     color: #333;
 }
-.contact .right form .fields {
+.contact .contact-content .row ion-icon{
+    font-size: 25px;
+    color: #0Bf900;
+}
+.contact .rigth form .fields {
     display: flex;
 }
-.contact .right form .fields,
-.contact .right form .fields .field{
+
+.contact .rigth form .fields,
+.contact .rigth form .fields .field {
     width: 100%;
     height: 45px;
     margin-bottom: 15px;
 }
-.contact .right form .fields input{
+.contact .rigth form .fields input,
+.contact .rigth form .textarea textarea{
     width: 100%;
     height: 100%;
     border: 1px solid #ccc;
@@ -446,6 +449,38 @@ section .title::after{
     font-size: 17px;
     font-family: 'Roboto', sans-serif;
 }
+.contact .rigth  form .name {
+    margin-right: 10px;
+}
+.contact .rigth  form .email {
+    margin-left: 10px;
+}
+.contact .rigth form .textarea {
+    width: 100%;
+    height: 80px;
+}
+.contact .rigth form .textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+.contact .rigth form .button {
+    width: 170px;
+    height: 74px;    
+}
+.contact .rigth form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #0Bf900;
+    background: #0Bf900;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
 
 
 /* Responsivo*/
