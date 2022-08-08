@@ -10,8 +10,8 @@ html {
     scroll-behavior:smooth ;
 }
 .max-width {
-    max-width: 1400px;
-    padding: 0 100px;
+    max-width: 1300px;
+    padding: 0 80px;
     margin: auto;
 }
 /*.navbar---inicio.*/
@@ -395,10 +395,17 @@ section .title::after{
 }
 
 /*sessão Contact*/
-.contact .contact-content .column{
+
+.contact .title::after{
+    content: "Contact me";
+}
+.column{
     width: calc(50% - 30px);
 }
-.contact .contact-content .left{
+.contact .contact-content {
+    align-items: flex-start;
+}
+.contact .contact-content .left p{
     text-align: justify;
 }
 .contact .contact-content .text{
@@ -432,13 +439,13 @@ section .title::after{
     display: flex;
 }
 
-.contact .rigth form .fields,
+.contact .rigth form .field,
 .contact .rigth form .fields .field {
     width: 100%;
     height: 45px;
     margin-bottom: 15px;
 }
-.contact .rigth form .fields input,
+.contact .rigth form .field input,
 .contact .rigth form .textarea textarea{
     width: 100%;
     height: 100%;
@@ -465,7 +472,7 @@ section .title::after{
 }
 .contact .rigth form .button {
     width: 170px;
-    height: 74px;    
+    height: 47px;    
 }
 .contact .rigth form .button button{
     width: 100%;
@@ -477,6 +484,11 @@ section .title::after{
     font-weight: 500;
     border-radius: 6px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.contact .rigth form .button button:hover{
+    color: #0Bf900;
+    background: none;
 }
 
 
@@ -564,7 +576,8 @@ section .title::after{
         margin-bottom: 20px;
     }
 
-    .skills .skills-content .column {
+    .skills .skills-content .column,
+    .contact .contact-content .column {
         width: 100%;
         margin-bottom: 20px;
     }
