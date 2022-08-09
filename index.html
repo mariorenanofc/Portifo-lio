@@ -1,3 +1,17 @@
+<!-- <?php 
+
+    if(isset($_POST['submit']))
+    {
+        print_r($_POST['name']);
+        print_r($_POST['email']);
+        print_r($_POST['last_name']);
+        print_r($_POST['write']);
+        
+    }
+
+?> 
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -65,11 +79,13 @@
         <h2 class="title">Projects</h2>
         <div class="projects-content">
             <div class="card">
+                <a target="_blank" rel="external" href="https://mariorenanofc.github.io/Home-page-spiderman-main/">
                 <div class="box">
                     <ion-icon name="bug-outline"></ion-icon>
                     <div class="text">Spider Man Page</div>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam voluptate, repudiandae molestiae repellendus assumenda quidem hic minima facere nostrum, voluptatum numquam ullam voluptates quod quo, sint libero maxime labore.</p>
                 </div>
+                </a>
             </div>
 
             <div class="card">
@@ -208,7 +224,9 @@
             </div>
             <div class="column rigth">
                 <div class="text">Mensagem</div>
-                <form action="#">
+                <form action="#
+                
+                " method="POST">
                     <div class="fields">
                         <div class="field name">
                             <input type="text" placeholder="Name" required>
@@ -219,10 +237,10 @@
                     </div>
                     <div class="field">
                         <div class="field">
-                            <input type="text" placeholder="Sobrenome" required>
+                            <input type="last_name" placeholder="Last name" required>
                         </div>   
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Escrever..." required></textarea>
+                            <textarea type="write" cols="30" rows="10" placeholder="Escrever..." required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Enviar</button>
