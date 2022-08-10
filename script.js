@@ -16,14 +16,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings:[ "Hello World!","Designer", "Developer","Freelancer", "Dev JR"],
+        strings:[ "", "Butcher", "Designer","Freelancer", "Dev JR"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings:[ "Hello World!","Designer", "Developer","Freelancer", "Dev JR"],
+        strings:[ "", "Butcher", "Designer", "Freelancer", "Dev JR"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

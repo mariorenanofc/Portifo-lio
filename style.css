@@ -59,7 +59,7 @@ html {
     color: #0Bf900;
  }
  .navbar.sticky .menu li a:hover{
-    color: #000000;
+    color: #0Bf900;
  }
  .navbar__logo {
     width: 35px;
@@ -370,7 +370,8 @@ section .title::after{
 .teams .carousel .card:hover{
     background: #0Bf900;
 }
-.teams .carousel .card img{
+.teams .carousel .card img,
+video{
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -378,7 +379,7 @@ section .title::after{
     border: 5px solid #0Bf900;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.teams .carousel .card:hover img, video{
     border: #000000;
 }
 .teams .carousel .card .box{
