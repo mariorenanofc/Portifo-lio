@@ -358,7 +358,7 @@ section .title::after{
 /* Sessão Equipe */
 
 .teams .title::after{
-    content: "Specialized";
+    content: "about mine";
 }
 .teams .carousel .card{
     background: #222;
