@@ -370,7 +370,7 @@ section .title::after{
 .teams .carousel .card:hover{
     background: #0Bf900;
 }
-.teams .carousel .card img,
+.teams .carousel .card 
 video{
     width: 150px;
     height: 150px;
@@ -379,7 +379,7 @@ video{
     border: 5px solid #0Bf900;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img, video{
+.teams .carousel .card:hover video{
     border: #000000;
 }
 .teams .carousel .card .box, video{
