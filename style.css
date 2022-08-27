@@ -382,17 +382,17 @@ video{
 .teams .carousel .card:hover img, video{
     border: #000000;
 }
-.teams .carousel .card .box{
+.teams .carousel .card .box, video{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.teams .carousel .card:hover .box, video{
     transition: scale(1.05);
 }
-.teams .carousel .card .text{
+.teams .carousel .card .text, video{
     font-size: 18px;
     font-weight: 500;
     margin: 10px 0 7px 0;
