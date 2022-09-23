@@ -262,10 +262,10 @@ section .title::after{
     background: #0Bf900;
     color: #111;
 }
-.projects .projects-content .card .box {
+.projects .projects-content .card .box  a{
     transition: all 0.3s ease;
 }
-.projects .projects-content .card:hover .box{
+.projects .projects-content .card:hover .box a{
     transform: scale(1.05);
 }
 .projects .projects-content .card ion-icon {
@@ -280,6 +280,17 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+
+.projects .projects-content .card a {
+    color: #fff;
+}
+
+.projects .projects-content .card a:hover{
+    color: #111;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
 /* Sessão especialidades*/
 
 .skills .title::after{
@@ -340,19 +351,22 @@ section .title::after{
     background: #0Bf900;
 }
 .skills .skills-content .right .html::before{
-    width: 82%;
+    width: 71.57%;
 }
 .skills .skills-content .right .css::before{
-    width: 16%;
+    width: 21.15%;
 }
 .skills .skills-content .right .javascript::before{
-    width: 2%;
+    width: 2.16%;
 }
-.skills .skills-content .right .php::before{
-    width: 0%;
+.skills .skills-content .right .vue::before{
+    width: 1.86%;
 }
-.skills .skills-content .right .mysql::before{
-    width: 0%;
+.skills .skills-content .right .scss::before{
+    width: 1.73%;
+}
+.skills .skills-content .right .typescript::before{
+    width: 1.53%;
 }
 
 /* Sessão Equipe */
