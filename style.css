@@ -351,22 +351,22 @@ section .title::after{
     background: #0Bf900;
 }
 .skills .skills-content .right .html::before{
-    width: 71.57%;
+    width: 69.87%;
 }
 .skills .skills-content .right .css::before{
-    width: 21.15%;
+    width: 20.70%;
 }
 .skills .skills-content .right .javascript::before{
-    width: 2.16%;
+    width: 2.11%;
 }
 .skills .skills-content .right .vue::before{
-    width: 1.86%;
+    width: 3.72%;
 }
 .skills .skills-content .right .scss::before{
-    width: 1.73%;
+    width: 2.07%;
 }
 .skills .skills-content .right .typescript::before{
-    width: 1.53%;
+    width: 1.55%;
 }
 
 /* Sessão Equipe */
