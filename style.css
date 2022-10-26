@@ -257,6 +257,7 @@ section .title::after{
     padding: 20px 25px;
     cursor: pointer;
     transition:  all 0.3s ease;
+    margin-top: 10px;
 }
 .projects .projects-content .card:hover {
     background: #0Bf900;
@@ -351,25 +352,25 @@ section .title::after{
     background: #0Bf900;
 }
 .skills .skills-content .right .html::before{
-    width: 63.10%;
+    width: 32.40%;
 }
 .skills .skills-content .right .css::before{
-    width: 18.69%;
+    width: 20.42%;
 }
 .skills .skills-content .right .javascript::before{
-    width: 1.90%;
+    width: 2.19%;
 }
 .skills .skills-content .right .vue::before{
-    width: 8.90%;
+    width: 25.29%;
 }
 .skills .skills-content .right .scss::before{
-    width: 5.55%;
+    width: 15.27%;
 }
 .skills .skills-content .right .typescript::before{
-    width: 1.85%;
+    width: 4.41%;
 }
 .skills .skills-content .right .shell::before{
-    width: 0.1%;
+    width: 0.2%;
 }
 
 /* Sessão Equipe */
